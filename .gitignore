@@ -1,0 +1,52 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ---- Jupyter Notebook ----
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ---- Virtual environments ----
+.env
+.venv
+env/
+venv/
+ENV/
+venv.bak/
+
+# ---- VS Code ----
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ---- Logs and junk ----
+*.log
+*.DS_Store
+Thumbs.db
+
+# ---- Python tooling ----
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.pyre/
+.pytype/
+
+# ---- Project-specific ----
+# Add dataset folders if they’re big / local only
+data/
+*.csv
+*.tsv
+*.xlsx
+*.json
